@@ -43,9 +43,7 @@ public class ReadCSV {
 
         return alumnos;
     }
-
     public static void main(String[] args) {
         leerCSV();
     }
-
 }
