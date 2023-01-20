@@ -5,7 +5,7 @@ import java.io.IOException;
 // Kevin Alejandro Medina Padilla
 // Diseño de Software 
 
-public class ReadCSV {
+public class ReadCSV1 {
 
     private static int cantidadAlumnos = 3; // Al ser un array estatico, se debe indicar la cantidad de alumnos en la
                                             // lista
