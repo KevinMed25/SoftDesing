@@ -4,12 +4,16 @@ import java.io.IOException;
 
 public class ReadCSV2 {
 
-    private static int cantidadAlumnos = 3;
+    private int cantidadAlumnos = 3;
+    private String[][] alumno = new String[cantidadAlumnos][4];
 
-    public static boolean leerCSV(String path) {
+    public ReadCSV2() {
+
+    }
+
+    public boolean leerCSV(String path) {
 
         String line = "";
-        String[][] aux = new String[cantidadAlumnos][4];
 
         try {
 
@@ -23,12 +27,10 @@ public class ReadCSV2 {
 
                 for (int j = 0; j < split.length; j++) {
 
-                    aux[i][j] = split[j];
-
-                    // System.out.print(aux[i][j] + " ");
+                    this.alumno[i][j] = split[j];
+                    System.out.print(this.alumno[i][j] + " ");
                 }
-                // System.out.println("");
-
+                System.out.println("");
             }
 
             return true;
@@ -41,15 +43,16 @@ public class ReadCSV2 {
     }
 
     private String[][] getRecords() {
-
-        String[][] alumnos = new String[cantidadAlumnos][4];
-        return alumnos;
+        return this.alumno;
     }
 
     public static void main(String[] args) {
 
-        String path = "lista.csv";
-        leerCSV(path);
+        String path = "C:/Users/kevin/Desktop/SoftDesing/V2/lista.csv";
+        ReadCSV2 leer = new ReadCSV2();
+        leer.leerCSV(path);
+        leer.getRecords();
+
     }
 
 }
