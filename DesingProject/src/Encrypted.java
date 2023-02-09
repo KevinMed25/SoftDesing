@@ -1,5 +1,5 @@
 
-import java.io.IOException;
+// import java.io.IOException;
 import java.util.Base64;
 
 public class Encrypted {
@@ -35,17 +35,17 @@ public class Encrypted {
 
     /* FIRST TEST */
 
-    public static void main(String Args[]) throws IOException {
+    // public static void main(String Args[]) throws IOException {
 
-        // System.out.println( Encryp(Credentials.getURL()));
-        // System.out.println( Encryp(Credentials.getUsername()));
-        // System.out.println( Encryp(Credentials.getPassword()));
+    // // System.out.println( Encryp(Credentials.getURL()));
+    // // System.out.println( Encryp(Credentials.getUsername()));
+    // // System.out.println( Encryp(Credentials.getPassword()));
 
-        // System.out.println(Decryp(Credentials.getURL()));
-        // System.out.println(Decryp(Credentials.getUsername()));
-        // System.out.println(Decryp(Credentials.getPassword()));
+    // // System.out.println(Decryp(Credentials.getURL()));
+    // // System.out.println(Decryp(Credentials.getUsername()));
+    // // System.out.println(Decryp(Credentials.getPassword()));
 
-    }
+    // }
 
     /*
      * ORIGINAL CREDENTIALS:
