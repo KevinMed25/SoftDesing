@@ -17,6 +17,19 @@ class Person{
         this.ContactInformation = contactInformation;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setEmployeeID(String employeeID){
+        this.employeeID = employeeID;
+    }
+
+    public void tile(String title){
+        this.title = title;
+    }
+
+    // agregar getters
 
 
 }

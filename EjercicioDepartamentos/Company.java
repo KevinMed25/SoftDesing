@@ -1,4 +1,8 @@
 public class Company{
 
-    private Department Department;
+    List <Department> listaDepartamentos = new ArrayList<Department>();
+    
+    public void addDepartement(Department depo){
+
+    }
 }
