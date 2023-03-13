@@ -15,7 +15,7 @@ class Department{
         this.name = name;
     }
 
-    public voif getName(){
+    public void getName(){
 
     }
 
