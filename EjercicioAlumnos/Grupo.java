@@ -1,13 +1,13 @@
+
 public class Grupo{
     
     List<Alumno> listAlumnos;
     private Profesor prof;
     private Asignatura asig;
+    private Reservacion rev;
 
-    public Grupo(Profesor _prof, Asignatura _asig){
+    public Grupo(){
         listAlumnos = new ArrayList<Alumno>();
-        this.prof = _prof;
-        this.asig = _asig;
     }
 
     public void addAlumno(Alumno _alumno){
@@ -20,6 +20,10 @@ public class Grupo{
     
     public void setAsignatura(Asignatura a){
         this.asig = a;
+    }
+
+    public void setReservacion(Reservacion r){
+        this.rev = r;
     }
 }
     

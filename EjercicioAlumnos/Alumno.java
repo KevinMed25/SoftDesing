@@ -1,7 +1,7 @@
+
 public class Alumno{
 
-    List<Grupo> listGrupos;// = new ArrayList<Grupo>();
-
+    List<Grupo> listGrupos;
     public Alumno(){
         listGrupos = new ArrayList<Grupo>();
     }
