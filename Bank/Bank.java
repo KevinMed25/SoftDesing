@@ -15,6 +15,7 @@ public class Bank{
         } else {
             account.addInsuffientFundFree();
             account.noteReturnedCheck(theCheck);
+            this.returnCheck(theCheck);
         }
     }
 
