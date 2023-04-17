@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Department{
 
     private String name;
@@ -15,8 +18,8 @@ class Department{
         this.name = name;
     }
 
-    public void getName(){
-
+    public String getName(){
+        return  this.name;
     }
 
 }

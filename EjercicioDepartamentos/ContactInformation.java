@@ -5,7 +5,7 @@ class ContactInformation{
         this.adress = adress;
     }
 
-    public void getAdress(){
-        return this.adress();
+    public String getAdress(){
+        return this.adress;
     }
 }
