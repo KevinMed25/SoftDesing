@@ -1,5 +1,5 @@
 public class Profesor {
-    public Profeso() {
+    public Profesor() {
 
     }
 }
